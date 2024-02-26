@@ -1,0 +1,77 @@
+body {
+    background-color: #ff6666;
+}
+
+.heading {
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-size: 3rem;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.todo-body {
+    justify-content: center;
+    margin-top: 100px;
+    justify-items: auto;
+    display: flex;
+}
+
+.span-box {
+    box-shadow: 1px 0px 2px 0px;
+    background-color: rgb(216, 216, 216);
+    font-size: 125%;
+    border-radius: 10px 0 0 10px;
+    font-weight: bolder;
+    padding-bottom: 9px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.input-style {
+    width: 30vw;
+    height: 30px;
+    padding-inline: 10px;
+    border-radius: none;
+}
+
+.btn-1 {
+    background-color: rgb(0, 128, 30);
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 0 10px 10px 0;
+    font-weight: bolder;
+    font-size: larger;
+    padding-bottom: 4px;
+    transition: 0.5s;
+    padding: 5px 15px 9px 15px;
+}
+
+.btn-1:hover {
+    background-color: rgb(41, 118, 0);
+    transition: 0.5s;
+}
+
+.todoNames {
+    list-style: none;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.singleName {
+    border-radius: 10px;
+    margin: 10px 0;
+    background-color: #e9ecef;
+    padding: 10px 20px;
+    display: flex;
+    width: 40%;
+    text-align: center;
+}
+
+.item-text {
+    margin-left: 47%;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
